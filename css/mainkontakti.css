@@ -1,0 +1,289 @@
+html, body {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+	width: 100%;
+    
+    
+  }
+
+   
+    .flex-container div {
+    width: 100%;
+	margin: 0;
+	margin: 0 auto;
+	border-radius: 5px;
+    
+    }
+    .flex-container div:nth-child(1) {
+		display: flex;
+		height: 6em;
+		justify-content: center;
+		
+	}
+	
+
+
+
+    .flex-container div:nth-child(2) {
+        border-top: 1px solid #C0C0C0;
+        background-color: #ADFF2F;
+		
+           }
+
+
+table.two {
+	display: flex;
+	justify-content: center;
+	
+}
+
+
+
+th {
+		padding-right: 30px;
+        color: #808080;
+        height: 60px;
+        text-align: center;
+        font-size: 150%;
+        font-family: shrift2;
+		text-transform: uppercase;
+       
+    }
+
+           td > a { 
+           
+            transition-property: color; 
+            transition-duration: 0,8s; 
+            text-decoration: none; 
+			font-family: RopaSansSCPro-Regular;
+			font-size: 120%;
+			color: #000000;
+            } 
+
+
+            a:hover { 
+                color: #00008B; 
+                } 
+				
+				th > a { 
+             color: #808080; 
+            transition-property: color; 
+            transition-duration: 0,8s; 
+            text-decoration: none; 
+			font-family: shrift2;
+			font-size: 110%;
+			
+            } 
+
+
+    @font-face {
+		font-family: FontinSans_Cyrillic_B_46b;
+		src: url(../fonts/FontinSans_Cyrillic_B_46b.otf);
+		font-family: Idealist;
+		src: url(../fonts/Idealist.otf);
+		font-family: shrift;
+        src: url(../fonts/shrift.woff2);
+		font-family: shrift2;
+		src: url(../fonts/shrift2.ttf);
+		font-family: IdealistSans;
+		src: url(../fonts/IdealistSans.woff);
+		font-family: RopaSansSCPro-Regular;
+		src: url(../fonts/RopaSansSCPro-Regular.woff);
+        
+    }
+   
+    table.one td {
+        font-size: 100%;
+        text-align: left;
+		padding-top: 10px;
+        font-family: RopaSansSCPro-Regular;
+		font-size: 120%;
+         
+    }
+    
+  
+   
+   .uslugi {
+	   display: flex;
+	   flex-wrap: wrap;
+	   justify-content: center; 
+	   margin-top: 5px;
+	   align-content: center;
+	  
+	   
+   }
+   
+   .uslugi div {
+	   display: flex;
+	   height: 5em;
+	   width: 300px;
+	   margin-top: 3px;
+	   margin-right: 5px;
+	  align-items: center;
+	  text-align: center;
+	  justify-content: center; 
+	   border: 2px solid #000000;
+	   border-radius: 5px;
+	   text-transform: uppercase;
+	   font-family: shrift2;
+	   color: #191970;
+	   font-weight: bold;
+	   text-shadow: 10px #0000CD;
+	   background: linear-gradient(180deg, #ADFF2F, #6B8E23);
+	   text-shadow: 10px color #FF6347;
+      
+	  
+   }
+   
+  .uslugi2 {
+	   display: flex;
+	   flex-wrap: wrap;
+	   justify-content: center; 
+	   margin-top: 5px;
+	   align-content: center;
+	  
+	   
+   }
+   
+   .uslugi2 div {
+	   display: flex;
+	   height: 5em;
+	   width: 300px;
+	   margin-top: 3px;
+	   margin-right: 5px;
+	  align-items: center;
+	  text-align: center;
+	  justify-content: center; 
+	   border: 2px solid #000000;
+	   border-radius: 5px;
+	   text-transform: uppercase;
+	   font-family: shrift2;
+	   color: #191970;
+	   font-weight: bold;
+	   text-shadow: 10px #0000CD;
+	   background: linear-gradient(180deg, #ADFF2F, #6B8E23);
+	   text-shadow: 10px color #FF6347;
+      
+	  
+   }
+   
+  
+   .uslugi div > a {
+	   text-decoration: none;
+	   font-family: shrift2;
+	   color: #191970;
+       
+   }
+ .uslugi2 div > a {
+	   text-decoration: none;
+	   font-family: shrift2;
+	   color: #191970;
+       
+   }
+   
+   .footer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+    
+   }
+   
+   
+   .footer div {
+	display: flex;
+	 height: 5em;
+	   width: 400px;
+	   margin-top: 3px;
+	   margin-right: 5px;
+	  align-items: center;
+	  text-align: center;
+	  justify-content: center; 
+	background-color: #ADFF2F; 
+	border: 2px solid #000000;
+	text-transform: uppercase;
+	border-radius: 5px;
+	background: linear-gradient(180deg, #ADFF2F, #6B8E23);
+	font-family: RopaSansSCPro-Regular;
+	font-size: 150%;
+	
+   }
+   
+ .footer div > a {
+	 color: #000000;
+	 text-decoration: none; 
+ }
+ 
+ .footer div:nth-child(1) {
+	 text-align: center;
+ }
+ 
+ li {
+	  list-style-type: none;
+ }
+ 
+
+   
+   @media all and (max-width: 942px) {
+	   
+	   .uslugi {
+		   
+		   flex-direction: column;
+		   align-content: center;
+		   
+	   }
+	   
+   }
+   
+   @media all and (max-width: 942px) {
+	   
+	   .uslugi2 {
+		   
+		   flex-direction: column;
+		   align-content: center;
+		   
+		   
+	   }
+	   
+   }
+   
+   
+   
+  
+  @media all and (max-width: 1330px) {
+	   .footer {
+		   flex-direction: column;
+		   align-content: center;
+	   }
+   }
+   
+  @media all and (max-width: 1330px) {
+	   .footer div {
+	    height: 8em;
+	   width: 600px;
+       font-size: 150%;
+       font-weight: bold;
+      
+	   }
+   }
+   
+    @media all and (max-width: 1330px) {
+       .footer div li {
+            
+          color: #191970;   
+        }
+    }
+    
+    @media all and (max-width: 1330px) {
+       .footer div > a {
+            
+          color: #191970;   
+        }
+    }
